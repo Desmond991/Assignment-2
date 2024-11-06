@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'node_modules/@fortawesome')))
+app.use(express.static(path.join(__dirname, 'node_modules/@fontawesome')))
 
 // Routes
 app.use('/', indexRouter);
